@@ -1,0 +1,70 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.main-container{
+
+  
+  border: 1px white solid;
+  padding: 80px
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form *{
+  margin: 15px;
+  padding:10px
+}
+.terms-box{
+  display: flex;
+  flex-direction: row;
+
+}
+.form-checkbox{
+
+  margin: 0px;
+  margin-right: 5px;
+  border: white 1px solid;
+}
+
+p{
+  font-size: 12px;
+  padding:0px;
+  margin: 0px;
+}
+
+.data-box{
+  border: 1px solid white;
+  margin:50px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
